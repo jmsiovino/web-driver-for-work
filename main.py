@@ -35,7 +35,7 @@ SHIP_TO = '10100'
 COMMENT_TYPE = 'CMB'
 COMMENT_NAME = 'ALL'
 DISPATCH_METHOD = 'Email'
-EMAIL = 'jiovino@combe.com'
+EMAIL = os.environ["EMAIL"]
 
 
 def sleep(x):
